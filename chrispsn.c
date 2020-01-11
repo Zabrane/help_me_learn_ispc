@@ -4,9 +4,10 @@
 #include "chrispsn.h"
 
 int main() {
-    int n = 100000;
+    int n = 16;
     int vout[n];
     iota(vout, n);
-    for (int i=0; i<16; ++i) printf("%i\n", vout[i]);
+    for (int i=0; i<n; ++i) printf("%i\n", vout[i]);
+    printf("Sum: %i\n", sumint(vout, n));
     return 0;
 }
