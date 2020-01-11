@@ -1,6 +1,4 @@
-Help me build this simple executable!
-
-Tried to follow instructions at [1] and [2] and went down a few StackOverflow holes but no luck so far.
+A hello world for ispc.
 
 [1] https://ispc.github.io/example.html
 [2] https://github.com/ispc/ispc/tree/master/examples/simple
